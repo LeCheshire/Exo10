@@ -8,9 +8,20 @@ section:first-child h4{
 section:nth-child(2){
     border-bottom: red 5px solid;
 }
-h3, ul:first-child li{
-    color:red;
+section:nth-child(3) h3,
+section:nth-child(3) ul{
+    color: red;
 }
-section ul>li>a{
+section:nth-child(4) ul li>a{
     font-size:larger;
+}
+section:nth-child(5) h3+span{
+    color:blue;
+}
+section:nth-child(6) img[alt='la-tartine']{
+    border: 1px black solid;
+    border-radius:50%;
+}
+section:nth-child(7) p:hover{
+    color:green;
 }
