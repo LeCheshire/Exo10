@@ -5,3 +5,6 @@ section{
 section:first-child h4{
     color:blue;
 }
+section:nth-child(2){
+    border-bottom: red 5px solid;
+}
